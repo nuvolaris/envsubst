@@ -23,8 +23,7 @@ var (
 
 var usage = `Usage: envsubst [options...] <input>
 Options:
-  -i         Specify file input, otherwise use last argument as input file.
-             If no input file is specified, read from stdin.
+  -i         Specify file input, otherwise read from stdin.
   -o         Specify file output. If none is specified, write to stdout.
   -no-digit  Do not replace variables starting with a digit. e.g. $1 and ${1}
   -no-unset  Fail if a variable is not set.
